@@ -34,3 +34,4 @@ const runPythonScript = async () => {
   }
 };
 
+runPythonScript();
