@@ -13,3 +13,4 @@ const runPythonScript = async () => {
     ]);
 
     childProcess.stdout.on("data", (data) => {
+      console.log(data.toString());
