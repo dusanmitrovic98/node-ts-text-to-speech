@@ -19,3 +19,4 @@ const runPythonScript = async () => {
     await new Promise<void>((resolve, reject) => {
       childProcess.on("close", (code) => {
         if (code === 0) {
+          resolve();
