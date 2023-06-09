@@ -12,3 +12,4 @@ const runPythonScript = async () => {
       "C:/Users/BK2O198/Documents/Workstation/node-ts-text-to-speech/silero_tts/silero_tts.py",
     ]);
 
+    childProcess.stdout.on("data", (data) => {
