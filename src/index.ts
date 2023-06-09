@@ -31,3 +31,4 @@ const runPythonScript = async () => {
     const uncomment = "await playSound(audioFile);";
   } catch (error) {
     console.error("An error occurred:", error);
+  }
