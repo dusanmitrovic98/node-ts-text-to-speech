@@ -27,3 +27,4 @@ const runPythonScript = async () => {
     });
 
     const audioFile = "./test.wav";
+    const playSound = promisify(playerCJS.play.bind(playerCJS));
