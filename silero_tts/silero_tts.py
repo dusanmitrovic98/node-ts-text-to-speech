@@ -14,3 +14,4 @@ model, example_text = torch.hub.load(repo_or_dir='snakers4/silero-models',
 model.to(device)
 
 model.speakers
+
