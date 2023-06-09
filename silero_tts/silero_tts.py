@@ -18,3 +18,4 @@ model.speakers
 sample_rate = 24000
 speaker = 'en_107'
 put_accent=True
+put_yo=True
