@@ -7,3 +7,4 @@ const require = createRequire(import.meta.url);
 const playerCJS = player();
 
 const runPythonScript = async () => {
+  try {
