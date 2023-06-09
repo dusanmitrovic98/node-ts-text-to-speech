@@ -8,3 +8,4 @@ model_id = 'v3_en'
 device = torch.device('cpu')
 
 model, example_text = torch.hub.load(repo_or_dir='snakers4/silero-models',
+                                     model='silero_tts',
