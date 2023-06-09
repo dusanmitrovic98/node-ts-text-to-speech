@@ -24,3 +24,4 @@ model.save_wav(text=text,
                         speaker=speaker,
                         sample_rate=sample_rate,
                         put_accent=put_accent,
+                        put_yo=put_yo)
