@@ -22,3 +22,4 @@ put_yo=True
 
 model.save_wav(text=text,
                         speaker=speaker,
+                        sample_rate=sample_rate,
