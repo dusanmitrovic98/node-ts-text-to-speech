@@ -1,6 +1,6 @@
 # node-ts-text-to-speech
 
-Node.js and TypeScript.
+Node.js and TypeScript. Uses silero tts.
 
 # Setup
 
