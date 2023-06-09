@@ -15,3 +15,4 @@ model.to(device)
 
 model.speakers
 
+sample_rate = 24000
