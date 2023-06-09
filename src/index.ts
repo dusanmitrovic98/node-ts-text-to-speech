@@ -32,3 +32,4 @@ const runPythonScript = async () => {
   } catch (error) {
     console.error("An error occurred:", error);
   }
+};
