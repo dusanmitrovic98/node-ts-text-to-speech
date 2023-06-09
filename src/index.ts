@@ -16,3 +16,4 @@ const runPythonScript = async () => {
       console.log(data.toString());
     });
 
+    await new Promise<void>((resolve, reject) => {
