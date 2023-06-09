@@ -32,3 +32,4 @@ audio = model.apply_tts(text=text,
                         put_accent=put_accent,
                         put_yo=put_yo)
 
+sd.play(audio, sample_rate)
