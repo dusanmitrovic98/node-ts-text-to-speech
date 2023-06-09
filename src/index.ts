@@ -8,3 +8,4 @@ const playerCJS = player();
 
 const runPythonScript = async () => {
   try {
+    const childProcess = spawn("python", [
