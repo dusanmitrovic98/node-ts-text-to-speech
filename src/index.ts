@@ -26,3 +26,4 @@ const runPythonScript = async () => {
       });
     });
 
+    const audioFile = "./test.wav";
