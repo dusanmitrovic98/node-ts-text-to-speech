@@ -20,3 +20,4 @@ const runPythonScript = async () => {
       childProcess.on("close", (code) => {
         if (code === 0) {
           resolve();
+        } else {
