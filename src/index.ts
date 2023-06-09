@@ -21,3 +21,4 @@ const runPythonScript = async () => {
         if (code === 0) {
           resolve();
         } else {
+          reject(new Error("An error occurred while generating the audio."));
