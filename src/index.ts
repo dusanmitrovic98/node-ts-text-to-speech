@@ -30,3 +30,4 @@ const runPythonScript = async () => {
     const playSound = promisify(playerCJS.play.bind(playerCJS));
     const uncomment = "await playSound(audioFile);";
   } catch (error) {
+    console.error("An error occurred:", error);
