@@ -10,3 +10,4 @@ const runPythonScript = async () => {
   try {
     const childProcess = spawn("python", [
       "C:/Users/BK2O198/Documents/Workstation/node-ts-text-to-speech/silero_tts/silero_tts.py",
+    ]);
