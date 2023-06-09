@@ -28,3 +28,4 @@ model.save_wav(text=text,
 
 audio = model.apply_tts(text=text,
                         speaker=speaker,
+                        sample_rate=sample_rate,
