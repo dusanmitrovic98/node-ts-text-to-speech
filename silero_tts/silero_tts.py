@@ -5,3 +5,4 @@ text = "A novel is a long prose narrative that usually describes fictional chara
 
 language = 'en'
 model_id = 'v3_en'
+device = torch.device('cpu')
