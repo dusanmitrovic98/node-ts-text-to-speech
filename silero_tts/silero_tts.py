@@ -26,3 +26,4 @@ model.save_wav(text=text,
                         put_accent=put_accent,
                         put_yo=put_yo)
 
+audio = model.apply_tts(text=text,
