@@ -20,3 +20,4 @@ speaker = 'en_107'
 put_accent=True
 put_yo=True
 
+model.save_wav(text=text,
